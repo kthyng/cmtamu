@@ -1,3 +1,4 @@
+cmocean/_version.py
 cmocean/rgb/drafts/
 dist
 *.pyc

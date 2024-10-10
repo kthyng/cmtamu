@@ -2,3 +2,8 @@ include README.md
 include *.txt
 recursive-include cmocean *.txt
 recursive-include cmocean *.py
+
+recursive-exclude cmocean/rgb *.jscm
+prune docs
+prune figures
+exclude cmocean/_version.py
